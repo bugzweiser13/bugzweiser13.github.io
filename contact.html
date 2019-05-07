@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>...Contact Me...</title>
+<link rel="icon"  href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <a href="index.html" id="logo" title="Main Page">Jason Emerson </a>
+                <nav id="links">
+                    <a href="index.html" title="Main Page">About</a>
+                    <a href="portfolio.html" title="My Portfolio">Portfolio</a>
+                    <a href="contact.html" title="Contact Info">Contact</a>
+                </nav>
+            </div>
+    </header>
+        
+    <div id="main_container" class="container">
+        <section class="main_body">
+            <h1>Contact</h1>
+                <form id="contact_body" action="mailto:bugzweiser@gmail.com?subject=Hello%20I%20visited%20your%20page" method="post" enctype="text/plain">
+                   <label for="name">Name</label>
+                        <input type="text" id="name" name="Name" value="John Smith" onfocus="this.value=''" onblur="(this.value=='')? this.value='John Smith':this.value;">
+                            <br>
+                    <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" value="example@gmail.com" onfocus="this.value=''" onblur="(this.value=='')? this.value='example@gmail.com':this.value;">
+                            <br>
+                    <label for="message">Message</label>
+                        <textarea id="message" name="Message" placeholder="Please enter message to me here (150 characters)." onfocus="this.placeholder=''" onblur="(this.placeholder=='')? this.placeholder='Please enter message to me here (150 characters).':this.value;" required="required"required="required" maxlength="150"></textarea>
+                            <br>
+                    <button type="submit" title="Submit Information">Submit</button>
+                    <button type="reset" title="Reset">Reset</button>
+                </form>
+                
+        </section>
+    </div>
+
+            <footer>
+                    <div class="footer">
+                        Copyright &copy; 2019 Jason Emerson
+                    </div>
+            </footer>
+    </body>
+                        
+</html>

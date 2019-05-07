@@ -1,2 +1,2 @@
-# bugzweiser13.github.io
-GitHub Live Pages
+# basic-portfolio
+Assignment - That Portfolio Though
