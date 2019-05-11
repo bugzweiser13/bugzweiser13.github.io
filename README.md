@@ -1,2 +1,1 @@
-# basic-portfolio
-Assignment - That Portfolio Though
+Open Portfolio: https://bugzweiser13.github.io/
